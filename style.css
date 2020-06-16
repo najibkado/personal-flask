@@ -1,0 +1,107 @@
+#header {
+  height: 7rem;
+  width: 100%;
+  background-color: #000230;
+  padding: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+  width: inherit;
+  text-align: right;
+}
+.nav ul {
+  width: inherit;
+}
+.nav ul li {
+  display: inline;
+  padding: 0 5% 0 0;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3%;
+  text-align: center;
+}
+
+#bottom, #middle, #top {
+  height: 30rem;
+  width: 100%;
+  background-color: #cccccc;
+}
+
+#top {
+  background-image: url("196822.jpg");
+  color: #ffffff;
+}
+
+#middle {
+  height: 20rem;
+}
+
+#bottom {
+  background-color: #000230;
+}
+
+.list-styled media {
+  display: inline;
+}
+
+.rounded-circle {
+  margin: 5%;
+  height: 200px;
+  width: 200px;
+  border: 3px solid #000230;
+}
+
+.contact {
+  padding: 3%;
+  height: 20rem;
+  width: 30rem;
+  border: 1px solid #000230;
+  text-align: left;
+}
+
+.form-news {
+  margin: 2%;
+  text-align: left;
+}
+
+.products {
+  text-align: center;
+  padding: 7%;
+}
+
+.products > img {
+  width: 10%;
+  height: 10%;
+}
+
+.email {
+  width: 20%;
+}
+
+.head {
+  background-color: #f6f6f6;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 200px) {
+  .contact {
+    padding: 3%;
+    height: 40rem;
+    width: 25rem;
+    border: 1px solid #000230;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

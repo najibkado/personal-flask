@@ -1,0 +1,115 @@
+$color : #000230;
+$sectionColor : #cccccc;
+
+#header {
+  height: 7rem;
+  width: 100%;
+  background-color: $color;
+  padding: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+  width: inherit;
+  text-align: right;
+
+    ul {
+      width: inherit;
+
+        li {
+          display: inline;
+          padding: 0 5% 0 0;
+
+            a {
+              text-decoration: none;
+              color: #ffffff;
+              text-align: right;
+              font-size: 1.5rem;
+
+            }
+        }
+
+    }
+
+}
+
+.container-fluid {
+  padding: 3%;
+  text-align: center;
+}
+
+%sections {
+  height: 30rem;
+  width: 100%;
+  background-color: $sectionColor;
+}
+
+#top {
+  @extend %sections;
+  background-image: url("196822.jpg");
+  color: #ffffff;
+}
+
+#middle {
+  @extend %sections;
+    height: 20rem;
+}
+
+#bottom {
+  @extend %sections;
+      background-color: $color;
+}
+
+.list-styled media{
+  display: inline;
+}
+.rounded-circle {
+  margin: 5%;
+  height: 200px;
+  width: 200px;
+  border: 3px solid $color;
+}
+
+.contact {
+  padding: 3%;
+  height: 20rem;
+  width: 30rem;
+  border: 1px solid $color;
+  text-align: left;
+}
+
+.form-news {
+  margin: 2%;
+  text-align: left;
+}
+
+.products {
+    text-align: center;
+    padding: 7%;
+}
+.products > img {
+  width: 10%;
+  height: 10%;
+}
+
+.email {
+  width: 20%;
+}
+
+.head {
+  background-color: #f6f6f6 ;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 200px) {
+  .contact {
+    padding: 3%;
+    height: 40rem;
+    width: 25rem;
+    border: 1px solid $color;
+    text-align: center;
+  }
+}
